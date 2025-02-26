@@ -75,10 +75,10 @@ public class Main {
     public static boolean checkingTheSumOfNumbers(int a, int b) {
         System.out.println("\n№ 5");
         int sum = a + b;
-        //return sum > 10 && sum <= 20; 
+        return sum > 10 && sum <= 20;
 
-        if (sum > 10 && sum <= 20) return true;
-        else return false;
+        //if (sum > 10 && sum <= 20) return true;
+        //else return false;
         //if (sum > 10 && sum <= 20) System.out.println("от 10 до 20");
         //else System.out.println("не в пределах");
     }
