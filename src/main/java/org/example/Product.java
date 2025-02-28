@@ -8,4 +8,23 @@ package org.example;
 */
 
 public class Product {
+    String name;
+    String productionDate;
+    String manufacturer;
+    String countryOrigin;
+    int price;
+    String buyersReservationStatus;
+
+    public Product(String name, String productionDate, String manufacturer, String countryOrigin,
+                   int price, String buyersReservationStatus) {
+        this.name = name;
+        this.productionDate = productionDate;
+        this.manufacturer = manufacturer;
+        this.countryOrigin = countryOrigin;
+        this.price = price;
+        this.buyersReservationStatus = buyersReservationStatus;
+        System.out.println(" название " + name + ", дата производства " + productionDate +
+                ", производитель " + manufacturer + ", страна происхождения " + countryOrigin +
+                ", цена " + price + ", состояние бронирования покупателем " + buyersReservationStatus);
+    }
 }

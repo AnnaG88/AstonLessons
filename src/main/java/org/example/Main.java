@@ -2,7 +2,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-
+        Product product1 = new Product("киви", "февраль 2025",
+                "Корпорейшен", "Мадагаскар", 800, "заказано");
     }
 }
 
