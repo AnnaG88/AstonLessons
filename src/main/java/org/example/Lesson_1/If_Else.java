@@ -1,9 +1,9 @@
 package org.example.Lesson_1;
 
-public class IfElseClass {
+public class If_Else {
     public static void main(String[] args){
         int a = 7;
-        if(a == 5) {
+        if(a == 5) { // отработает первый подходящий if и выйдет
             System.out.println("число равно 5");
         }
         else if (a > 5){

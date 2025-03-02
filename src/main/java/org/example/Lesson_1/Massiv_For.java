@@ -2,7 +2,7 @@ package org.example.Lesson_1;
 
 import java.util.Arrays;
 
-public class MassivForClass {
+public class Massiv_For {
     public static void main(String[] args){
 
         int [] arrrr = new int[10]; // массив с циклом одномерный

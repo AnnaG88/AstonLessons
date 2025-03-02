@@ -2,7 +2,7 @@ package org.example.Lesson_1;
 
 import java.util.Scanner;
 
-public class SwitchCaseClass {
+public class Switch_Case {
     public static void main(String[] args) {
         /*
         int a = 3;
@@ -42,7 +42,7 @@ public class SwitchCaseClass {
 
         Scanner scanner = new Scanner(System.in);
         int age = scanner.nextInt();
-        switch (age) {
+        switch (age) { // отработает первый подходящий и все после до брейк
             case 1 : // 2*2
                 System.out.println("отработал кейс 1");
             case 2 :
