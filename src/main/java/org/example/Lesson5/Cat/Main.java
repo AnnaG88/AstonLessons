@@ -1,6 +1,6 @@
-package org.example.Lesson_5.Cat;
+package org.example.Lesson5.Cat;
 
-import org.example.Lesson_5.Dog.Dog;
+import org.example.Lesson5.Dog.Dog;
 
 public class Main {
     public static void main(String[] args) {

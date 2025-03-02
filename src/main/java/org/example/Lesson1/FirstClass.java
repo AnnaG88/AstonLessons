@@ -1,4 +1,4 @@
-package org.example.Lesson_1;
+package org.example.Lesson1;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Locale;

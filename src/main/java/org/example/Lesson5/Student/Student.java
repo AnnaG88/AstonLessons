@@ -1,4 +1,4 @@
-package org.example.Lesson_5.Student;
+package org.example.Lesson5.Student;
 
 public class Student {
     int studentId;

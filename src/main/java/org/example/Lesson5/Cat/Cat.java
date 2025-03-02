@@ -1,4 +1,4 @@
-package org.example.Lesson_5.Cat;
+package org.example.Lesson5.Cat;
 
 public class Cat {
     String name;
