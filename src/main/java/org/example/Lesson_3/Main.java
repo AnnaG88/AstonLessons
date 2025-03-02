@@ -1,5 +1,7 @@
 package org.example.Lesson_3;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         printThreeWords();                    // № 1
@@ -156,11 +158,11 @@ public class Main {
     public static void arrayNumberOneHundred() {
         System.out.println("\n\n№ 11");
         int[] arr = new int[100];
-        int counter = 0;
-        for (int i = 0; i < arr.length; i++) {
-            counter = counter + 1;
-            System.out.print(counter + " ");
+        for (int i = 0; i < 100; i++) {
+            arr[i] = i + 1;
         }
+        System.out.print(Arrays.toString(arr));
+
     }
 
     /* № 12 Задать массив [1, 5, 3, 2, 1, 4, 5, 2, 4, 8, 9, 1] пройти по нему циклом,
