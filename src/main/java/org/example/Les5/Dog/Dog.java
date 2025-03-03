@@ -1,4 +1,4 @@
-package org.example.Lesson5.Dog;
+package org.example.Les5.Dog;
 
 public class Dog {
     String name;
