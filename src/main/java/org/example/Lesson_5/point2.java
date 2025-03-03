@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Lesson_5;
 
 /*      Задание 2
 Создать массив из 5 товаров.
@@ -13,7 +13,7 @@ package org.example;
     productsArray[4] = new Product(...);
 */
 
-public class Lesson5point2 {
+public class point2 {
     public static void main(String[] args) {
         Product[] productsArray = new Product[5]; // объявляем массив из 5 объектов
         // для каждой ячейки массива задаем объект
