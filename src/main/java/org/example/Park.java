@@ -19,21 +19,26 @@ public class Park { //класс Парк
         }
 
         //геттеры и сеттеры:
-        public String getNameAttraction(){
+        public String getNameAttraction() {
             return nameAttraction;
         }
+
         public void setNameAttraction(String nameAttraction) {
             this.nameAttraction = nameAttraction;
         }
+
         public String getOpeningTime() {
             return openingTime;
         }
+
         public void setOpeningTime(String openingTime) {
             this.openingTime = openingTime;
         }
+
         public double getPrice() {
             return price;
         }
+
         public void setPrice(double price) {
             this.price = price;
         }
@@ -57,6 +62,4 @@ public class Park { //класс Парк
         attraction1.setNameAttraction("Имя будет Качельки");
         System.out.println(attraction1.getNameAttraction());
     }
-
-
 }
