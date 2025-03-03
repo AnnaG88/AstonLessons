@@ -1,4 +1,4 @@
-package org.example.Lesson1;
+package org.example.Les1;
 
 public class For_2 { // вложенные циклы
     public static void main(String[] args){

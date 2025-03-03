@@ -1,4 +1,4 @@
-package org.example.Lesson1;
+package org.example.Les1;
 
 public class If_Else {
     public static void main(String[] args){
