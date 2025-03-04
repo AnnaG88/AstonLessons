@@ -44,27 +44,24 @@ public class Park { //класс Парк
         }
 
 
-        public void infoPrintConsole2() {
-
+        void infoPrintConsoleAttraction() { // метод для печати аттракциона
+            //геттерами выводим на печать из привата:
+            System.out.println(getNameAttraction() + getOpeningTime() + getPrice());
         }
     }
 
+    /*
     public static void main(String[] args) {
-        //Park park = new Park(); //создаем объект класса Парк
+        Park park = new Park(); //создаем объект класса Парк
         //создаем объект класса Аттракцион:
         Park.Attraction attraction1 = new Park.Attraction(" Карусель ", " 9.00-21.00 ", 700);
         Park.Attraction attraction2 = new Park.Attraction(" Батут ", " 9.00-21.00 ", 300);
 
-        //геттерами выводим на печать из привата:
-        System.out.println(attraction1.getNameAttraction()
-                + attraction1.getOpeningTime()
-                + attraction1.getPrice());
-        System.out.println(attraction2.getNameAttraction()
-                + attraction2.getOpeningTime()
-                + attraction2.getPrice());
+        attraction1.infoPrintConsoleAttraction();
+        attraction2.infoPrintConsoleAttraction();
 
-        //с помощью сеттеры менем имя и выводим результат с гетт:
+        //с помощью сеттеры меняем имя и выводим результат с гетт:
         attraction1.setNameAttraction("Имя будет Качельки");
         System.out.println(attraction1.getNameAttraction());
-    }
+    }*/
 }

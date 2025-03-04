@@ -23,7 +23,7 @@ public class Point2 {
         productsArray[3] = new Product("Honor 9", "01.05.2022", "Huawei", "China", 3534, false);
         productsArray[4] = new Product("iPhone 5s", "01.06.2021", "Apple Inc.", "USA", 9345, false);
         for (Product product : productsArray) {
-            product.infoPrintConsole();
+            product.infoPrintConsoleProduct();
         }
     }
 }

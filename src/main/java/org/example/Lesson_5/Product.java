@@ -7,7 +7,7 @@ package org.example.Lesson_5;
 Внутри класса «Товар» написать метод, который выводит информацию об объекте в консоль.
 */
 
-public class Product {
+class Product {
     String name; // определяем какие переменные будут в классе
     String productionDate;
     String manufacturer;
@@ -15,7 +15,7 @@ public class Product {
     int price;
     boolean buyersReservationStatus;
 
-    public Product(String name, String productionDate, String manufacturer, //конструктор
+    Product(String name, String productionDate, String manufacturer, //конструктор
                    String countryOrigin, int price, boolean buyersReservationStatus) {
         this.name = name;
         this.productionDate = productionDate;
@@ -25,7 +25,7 @@ public class Product {
         this.buyersReservationStatus = true;
     }
 
-    public void infoPrintConsole() {
+    void infoPrintConsoleProduct() {
         System.out.println(" название: " + name + "| дата производства: " + productionDate +
                 "| производитель: " + manufacturer + "| страна происхождения: " + countryOrigin +
                 "| цена: " + price + "| состояние бронирования покупателем: " + buyersReservationStatus);
