@@ -42,10 +42,15 @@ public class Park { //класс Парк
         public void setPrice(double price) {
             this.price = price;
         }
+
+
+        public void infoPrintConsole2() {
+
+        }
     }
 
     public static void main(String[] args) {
-        Park park = new Park(); //создаем объект класса Парк
+        //Park park = new Park(); //создаем объект класса Парк
         //создаем объект класса Аттракцион:
         Park.Attraction attraction1 = new Park.Attraction(" Карусель ", " 9.00-21.00 ", 700);
         Park.Attraction attraction2 = new Park.Attraction(" Батут ", " 9.00-21.00 ", 300);

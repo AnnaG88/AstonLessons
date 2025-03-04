@@ -13,7 +13,7 @@ package org.example.Lesson_5;
     productsArray[4] = new Product(...);
 */
 
-public class point2 {
+public class Point2 {
     public static void main(String[] args) {
         Product[] productsArray = new Product[5]; // объявляем массив из 5 объектов
         // для каждой ячейки массива задаем объект
