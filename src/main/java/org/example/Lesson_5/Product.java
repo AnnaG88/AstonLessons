@@ -25,7 +25,7 @@ class Product {
         this.buyersReservationStatus = true;
     }
 
-    void infoPrintConsoleProduct() {
+    void infoPrintConsoleProduct() { // метод для печати товара
         System.out.println(" название: " + name + "| дата производства: " + productionDate +
                 "| производитель: " + manufacturer + "| страна происхождения: " + countryOrigin +
                 "| цена: " + price + "| состояние бронирования покупателем: " + buyersReservationStatus);

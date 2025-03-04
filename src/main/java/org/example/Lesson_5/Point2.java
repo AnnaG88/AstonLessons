@@ -14,7 +14,7 @@ package org.example.Lesson_5;
 */
 
 public class Point2 {
-    public static void main(String[] args) {
+    public static boolean point2() {
         Product[] productsArray = new Product[5]; // объявляем массив из 5 объектов
         // для каждой ячейки массива задаем объект
         productsArray[0] = new Product("Samsung S25", "01.02.2025", "Samsung Corp.", "Korea", 5599, false);
@@ -25,5 +25,6 @@ public class Point2 {
         for (Product product : productsArray) {
             product.infoPrintConsoleProduct();
         }
+        return false;
     }
 }

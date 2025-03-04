@@ -1,24 +1,20 @@
 package org.example.Lesson_5;
 
+import static org.example.Lesson_5.Park.attractions;
+import static org.example.Lesson_5.Point2.point2;
+
 public class Main {
     public static void main(String[] args) {
+        System.out.println("№ 1");
         Product product1 = new Product("киви", "февраль 2025",
                 "Корпорейшен", "Мадагаскар", 800, false);
         product1.infoPrintConsoleProduct();
 
 
-        System.out.println();
+        System.out.println("\n № 2");
+        System.out.println(point2());
 
-
-        Park.Attraction attraction1 = new Park.Attraction(" Карусель ", " 9.00-21.00 ", 700);
-        Park.Attraction attraction2 = new Park.Attraction(" Батут ", " 9.00-21.00 ", 300);
-        attraction1.infoPrintConsoleAttraction();
-        attraction2.infoPrintConsoleAttraction();
-        //с помощью сеттеры меняем имя и выводим результат с гетт:
-        attraction1.setNameAttraction("Имя аттракциона1 будет Качельки");
-        System.out.println(attraction1.getNameAttraction());
-
+        System.out.println("\n № 3");
+        System.out.println(attractions());
     }
-
-
 }

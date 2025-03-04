@@ -50,9 +50,8 @@ public class Park { //класс Парк
         }
     }
 
-    /*
-    public static void main(String[] args) {
-        Park park = new Park(); //создаем объект класса Парк
+    public static boolean attractions() {
+        //Park park = new Park(); //создаем объект класса Парк
         //создаем объект класса Аттракцион:
         Park.Attraction attraction1 = new Park.Attraction(" Карусель ", " 9.00-21.00 ", 700);
         Park.Attraction attraction2 = new Park.Attraction(" Батут ", " 9.00-21.00 ", 300);
@@ -63,5 +62,6 @@ public class Park { //класс Парк
         //с помощью сеттеры меняем имя и выводим результат с гетт:
         attraction1.setNameAttraction("Имя будет Качельки");
         System.out.println(attraction1.getNameAttraction());
-    }*/
+        return false;
+    }
 }
