@@ -12,9 +12,9 @@ public class Main {
 
 
         System.out.println("\n № 2");
-        System.out.println(point2());
+        point2();
 
         System.out.println("\n № 3");
-        System.out.println(attractions());
+        attractions();
     }
 }
