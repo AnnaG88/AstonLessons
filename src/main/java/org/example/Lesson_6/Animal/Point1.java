@@ -22,8 +22,8 @@ package org.example.Lesson_6.Animal;
  - Добавить метод, с помощью которого можно было бы добавлять еду в миску.
  */
 
-public class Main {
-    public static void main(String[] args) {
+public class Point1 {
+    public static void point1 () {
 
         Dog dog1 = new Dog(" белый ", " Рекс ");  // инициализируем животных
         Dog dog2 = new Dog(" черный ", " Бим ");

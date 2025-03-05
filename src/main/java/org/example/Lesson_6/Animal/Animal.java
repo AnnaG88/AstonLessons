@@ -15,6 +15,9 @@ public abstract class Animal { // описываем какими характе
         count++;                 // счетчик животных
     }
 
+    public static void point() {
+    }
+
     public abstract void run(int length);
 
     public abstract void swim(int length);

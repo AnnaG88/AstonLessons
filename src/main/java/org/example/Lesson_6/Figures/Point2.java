@@ -11,5 +11,5 @@ package org.example.Lesson_6.Figures;
  методов в интерфейсе.
  */
 
-public class Main {
+public class Point2 {
 }
