@@ -1,8 +1,7 @@
 package org.example.Lesson_6.Animal;
 
-/**
- * Супер класс от которого будут наследоваться классы Кот и Дог
- */
+// Супер класс от которого будут наследоваться классы Кот и Дог
+
 public abstract class Animal { // описываем какими характеристиками обладают объекты животные
     String color;
     String name;
@@ -16,6 +15,7 @@ public abstract class Animal { // описываем какими характе
     }
 
     public static void point() {
+
     }
 
     public abstract void run(int length);

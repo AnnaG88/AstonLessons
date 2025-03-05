@@ -12,4 +12,7 @@ package org.example.Lesson_6.Figures;
  */
 
 public class Point2 {
+    public static void point1() {
+
+    }
 }

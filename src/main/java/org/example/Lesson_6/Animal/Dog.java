@@ -1,8 +1,7 @@
 package org.example.Lesson_6.Animal;
 
-/**
- * Подкласс Дог наследует класс Animal.
- */
+// Подкласс Дог наследует класс Animal.
+
 public class Dog extends Animal {    // доп инфо об объектах собаки:
     int runLength = 500;             // максимальная длина пробежки
     int swimmingLength = 10;         // максимальная длина плавания

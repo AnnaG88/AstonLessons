@@ -1,8 +1,7 @@
 package org.example.Lesson_6.Animal;
 
-/**
- * Класс описывает миску с едой.
- */
+// Класс описывает миску с едой.
+
 public class Bowl {
     private int foodAmount;  // параметр количество еды в миске
 
