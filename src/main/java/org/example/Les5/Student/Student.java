@@ -10,7 +10,7 @@ public class Student {
     Address address;
     Long phoneHumber;
 
-    public class Address {
+    public class Address { // внутренний класс
         String city;
         String street;
         String house;

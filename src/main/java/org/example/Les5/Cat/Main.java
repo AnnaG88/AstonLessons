@@ -4,18 +4,23 @@ import org.example.Les5.Dog.Dog;
 
 public class Main {
     public static void main(String[] args) {
-        Cat barsik = new Cat();
-        barsik.age = 1;
-        System.out.println(barsik.age);
+        Cat cat1 = new Cat();
+        cat1.name = "Барсик";
+        cat1.color = "белый";
+        cat1.age = 1;
+        System.out.println(cat1.age);
 
-        Cat myrzik = new Cat();
-        System.out.println(myrzik.age);
-        System.out.println(myrzik.color);
-        System.out.println(myrzik.cccccc);
+        Cat cat2 = new Cat();
+        cat2.name = "Мурзик";
+        cat2.color = "черный";
+        cat2.age = 2;
+        System.out.println(cat2.age);
+        System.out.println(cat2.color);
+        System.out.println(cat2.cccccc);
 
-        System.out.println(myrzik.poroda);
-        myrzik.haracter = "спокойный";
-        System.out.println(myrzik.haracter);
+        System.out.println(cat2.poroda);
+        cat2.haracter = "спокойный";
+        System.out.println(cat2.haracter);
     }
     Dog dog1 = new Dog("Рекс", "белый", 5);
 }
