@@ -7,7 +7,10 @@ public class Cat {
     boolean cccccc;
     String poroda;
     String haracter;
-    public Cat(){
+    public Cat(){ // конструктор
+        name = "имя";
+        color = "цвет";
+        age = 0;
         poroda = "дворняга";
         haracter = "неизв";
     }
