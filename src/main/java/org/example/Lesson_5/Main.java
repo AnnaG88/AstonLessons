@@ -7,7 +7,6 @@ public class Main {
                 "Корпорейшен", "Мадагаскар", 800, false);
         product1.infoPrintConsoleProduct();
 
-
         System.out.println("\n № 2");
         Product[] productsArray = new Product[5]; // объявляем массив из 5 объектов
         // для каждой ячейки массива задаем объект
