@@ -11,7 +11,7 @@ package org.example.Lesson_6.Figures;
  методов в интерфейсе.
  */
 
-public class Point2 {
+public class Figures {
     public static void point1() {
 
     }

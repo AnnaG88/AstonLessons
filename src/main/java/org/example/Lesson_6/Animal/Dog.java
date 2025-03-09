@@ -3,8 +3,8 @@ package org.example.Lesson_6.Animal;
 // Подкласс Дог наследует класс Animal.
 
 public class Dog extends Animal {    // доп инфо об объектах собаки:
-    int runLength = 500;             // максимальная длина пробежки
-    int swimmingLength = 10;         // максимальная длина плавания
+    private int runLength = 500;             // максимальная длина пробежки
+    private int swimmingLength = 10;         // максимальная длина плавания
     private static int dogCount = 0; // счетчик
 
     public Dog(String color, String name) { // конструктор для собак
