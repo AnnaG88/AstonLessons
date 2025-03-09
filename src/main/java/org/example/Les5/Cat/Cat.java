@@ -14,4 +14,9 @@ public class Cat {
         poroda = "дворняга";
         haracter = "неизв";
     }
+    public Cat(String name, String color, int age){ // конструктор
+        this.name = name;
+        this.color = color;
+        this.age = age;
+    }
 }

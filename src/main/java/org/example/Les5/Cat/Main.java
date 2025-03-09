@@ -21,6 +21,8 @@ public class Main {
         System.out.println(cat2.poroda);
         cat2.haracter = "спокойный";
         System.out.println(cat2.haracter);
+
+        Cat cat3 = new Cat("Буся", "рыжая", 3);
     }
     Dog dog1 = new Dog("Рекс", "белый", 5);
 }
