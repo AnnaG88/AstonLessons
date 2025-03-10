@@ -4,11 +4,11 @@ public class Array {
     public static void array() {
 
         int counter = 1; // массив с циклом двумерный
-        int[][] table = new int[4][4];
+        int[][] array = new int[4][4];
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                table[i][j] = counter;
-                System.out.print(table[i][j] + " ");
+                array[i][j] = counter;
+                System.out.print(array[i][j] + " ");
                 counter++;
             }
             System.out.println();

@@ -22,6 +22,17 @@ import static org.example.Lesson_8.Array.array;
 
 public class Main {
     public static void main(String[] args) {
-        array();
+        String[][] array = new String[][]{{"10", "5", "7", "8"},
+                {"10", "5", "7", "8"},
+                {"10", "5", "7", "8"},
+                {"10", "5", "7", "8"}};
+        try {
+            System.out.println(array);
+        }
+        catch (MyArraySizeException e){
+            System.out.println("отработало исключение");
+        }
+
+        //array();
     }
 }
