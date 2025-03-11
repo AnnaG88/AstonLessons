@@ -48,8 +48,8 @@ public class Main {
         cat1.run(randomValue);
         cat1.swim(randomValue);
 
-        System.out.println(" \n Всего животных: " + Animal.count +
-                ", из них кошек " + Cat.getCatCount() + ", и собак " + Dog.getDogCount() + "\n");
+        System.out.println(" \n Всего животных: " + Animal.animalCount() +
+                ", из них кошек " + Cat.catCount() + ", и собак " + Dog.getDogCount() + "\n");
 
 
         Cat[] cats = new Cat[5]; // Создаем массив из 5 котов
@@ -63,7 +63,7 @@ public class Main {
             int foodTaken = bowl.getFood(10);
             cats[i].eat(foodTaken);
             if (i < cats.length - 1) {
-                System.out.print("\n Осталось в миске " + bowl.FoodAmount() + " --> ");
+                System.out.print("\n Осталось в миске " + bowl.foodAmount() + " --> ");
             }
         }
 
@@ -76,7 +76,7 @@ public class Main {
         }
 
         cat1.eat(bowl.getFood(10));
-        System.out.println("Осталось в миске " + bowl.FoodAmount());
+        System.out.println("Осталось в миске " + bowl.foodAmount());
         bowl.addFood(10);
         cat1.eat(bowl.getFood(10));
 

@@ -2,19 +2,26 @@ package org.example.Lesson_6.Animal;
 
 // Супер класс от которого будут наследоваться классы Кот и Дог
 
-public abstract class Animal { // описываем какими характеристиками обладают объекты животные
-    public String color;
+public class Animal { // описываем какими характеристиками обладают объекты животные
+    protected String color;
     public String name;
-    public static int count;
-    //static int animalCount = 0;
+    private static int animalCount;
 
-    public Animal(String color, String name) { // конструктор класса Animall
+    public Animal(String color, String name) { // конструктор класса Animal
         this.color = color;      // цвет
         this.name = name;        // имя
-        count++;                 // счетчик животных
+        animalCount++;                 // счетчик животных
     }
 
-    public abstract void run(int length);
+    public static int animalCount() {
+        return animalCount;
+    }
 
-    public abstract void swim(int length);
+    public void run(int length) {
+        System.out.println(color + name + " пробежал " + length + " м.");
+    }
+
+    public void swim(int length) {
+        System.out.println(color + name + " проплыл " + length + " м.");
+    }
 }
