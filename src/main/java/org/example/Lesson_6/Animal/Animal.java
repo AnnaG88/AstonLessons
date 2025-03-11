@@ -8,7 +8,7 @@ public abstract class Animal { // описываем какими характе
     public static int count;
     //static int animalCount = 0;
 
-    public Animal(String color, String name) { // конструктор класса Animal
+    public Animal(String color, String name) { // конструктор класса Animall
         this.color = color;      // цвет
         this.name = name;        // имя
         count++;                 // счетчик животных
