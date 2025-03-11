@@ -1,10 +1,13 @@
 package org.example.Lesson_6.Figures;
 
+// интерфейс для всех фигур
 interface Figure {
     double perimeter();
+
     double area();
 
     String fillColor();
+
     String borderColor();
 
     default void printInfo() {

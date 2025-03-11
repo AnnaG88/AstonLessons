@@ -1,5 +1,6 @@
 package org.example.Lesson_6.Figures;
 
+// имплемент от интерфейса фигуры + дополнительно параметры и методы для круга
 public class Circle implements Figure {
     private double radius;
     private String fillColor;
