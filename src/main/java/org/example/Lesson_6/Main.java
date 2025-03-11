@@ -61,11 +61,12 @@ public class Main {
 
         for (int i = 0; i < cats.length; i++) {
             int foodTaken = bowl.eatFromBowl(10);
-            cats[i].eat(foodTaken);
+            cats[i].eatCat(foodTaken);
             if (i < cats.length - 1) {
                 System.out.print("\n Осталось в миске " + bowl.foodAmount() + " --> ");
             }
         }
+
 
         for (Cat cat : cats) { // проверяем условие сытости
             if (cat.fullness) {
@@ -75,10 +76,10 @@ public class Main {
             }
         }
 
-        cat1.eat(bowl.eatFromBowl(10));
+        cat1.eatCat(bowl.eatFromBowl(10));
         System.out.println("Осталось в миске " + bowl.foodAmount());
         bowl.addFood(10);
-        cat1.eat(bowl.eatFromBowl(10));
+        cat1.eatCat(bowl.eatFromBowl(10));
 
 
 /*    Задание 2:

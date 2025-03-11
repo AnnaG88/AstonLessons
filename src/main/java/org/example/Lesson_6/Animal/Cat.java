@@ -30,7 +30,7 @@ public class Cat extends Animal {    // доп инфо об объектах к
 
     //Если в миске достаточно еды, кот становится сытым (fullness = true).
 
-    public void eat(int foodAmount) { // метод позволяет коту покушать из миски
+    public void eatCat(int foodAmount) { // метод позволяет коту покушать из миски
         if (foodAmount > 0) {         // если количество еды в миске больше 0
             fullness = true;          // сытость будет удовлетворена = истина
             System.out.print(name + " покушал ");
