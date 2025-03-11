@@ -3,8 +3,8 @@ package org.example.Lesson_6.Animal;
 // Подкласс Кот наследует класс Animal.
 
 public class Cat extends Animal {    // доп инфо об объектах коты:
-    private int runLength = 200;             // максимальная длина пробежки
-    public boolean fullness;                // сытость
+    private int maxRunLength = 200;             // максимальная длина пробежки
+    public boolean fullness = false;                // сытость
     private static int catCount = 0; // счетчик котов
 
     public Cat(String color, String name) { // конструктор для котов:
@@ -13,7 +13,7 @@ public class Cat extends Animal {    // доп инфо об объектах к
     }
 
     public void run(int length) { // метод описывает бег
-        if (length >= runLength) {
+        if (length >= maxRunLength) {
             System.out.println(color + name + " не пробежит " + length + " м.");
         } else {
             System.out.println(color + name + " пробежал " + length + " м.");
