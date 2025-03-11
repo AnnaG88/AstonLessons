@@ -10,7 +10,7 @@ public class Bowl {
     }
 
     // Метод позволяет кушать из миски. Если в миске не хватает еды, нельзя покушать.
-    public int getFood(int foodAmount) {
+    public int eatFromBowl(int foodAmount) {
         if (foodAmount >= 0) {
             this.foodAmount -= foodAmount;
             return foodAmount;

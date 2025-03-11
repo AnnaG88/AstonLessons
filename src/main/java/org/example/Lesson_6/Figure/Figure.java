@@ -1,4 +1,4 @@
-package org.example.Lesson_6.Figures;
+package org.example.Lesson_6.Figure;
 
 // интерфейс для всех фигур
 interface Figure {

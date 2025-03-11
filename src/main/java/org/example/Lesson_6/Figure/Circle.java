@@ -1,4 +1,4 @@
-package org.example.Lesson_6.Figures;
+package org.example.Lesson_6.Figure;
 
 // имплемент от интерфейса фигуры + дополнительно параметры и методы для круга
 public class Circle implements Figure {

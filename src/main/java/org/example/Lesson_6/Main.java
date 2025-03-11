@@ -4,9 +4,9 @@ import org.example.Lesson_6.Animal.Animal;
 import org.example.Lesson_6.Animal.Bowl;
 import org.example.Lesson_6.Animal.Cat;
 import org.example.Lesson_6.Animal.Dog;
-import org.example.Lesson_6.Figures.Circle;
-import org.example.Lesson_6.Figures.Rectangle;
-import org.example.Lesson_6.Figures.Triangle;
+import org.example.Lesson_6.Figure.Circle;
+import org.example.Lesson_6.Figure.Rectangle;
+import org.example.Lesson_6.Figure.Triangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -60,7 +60,7 @@ public class Main {
         Bowl bowl = new Bowl(35); // Создаем миску с едой и определяем количество еды
 
         for (int i = 0; i < cats.length; i++) {
-            int foodTaken = bowl.getFood(10);
+            int foodTaken = bowl.eatFromBowl(10);
             cats[i].eat(foodTaken);
             if (i < cats.length - 1) {
                 System.out.print("\n Осталось в миске " + bowl.foodAmount() + " --> ");
@@ -75,10 +75,10 @@ public class Main {
             }
         }
 
-        cat1.eat(bowl.getFood(10));
+        cat1.eat(bowl.eatFromBowl(10));
         System.out.println("Осталось в миске " + bowl.foodAmount());
         bowl.addFood(10);
-        cat1.eat(bowl.getFood(10));
+        cat1.eat(bowl.eatFromBowl(10));
 
 
 /*    Задание 2:

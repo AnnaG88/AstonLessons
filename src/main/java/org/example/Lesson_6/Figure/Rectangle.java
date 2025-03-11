@@ -1,4 +1,4 @@
-package org.example.Lesson_6.Figures;
+package org.example.Lesson_6.Figure;
 
 // имплемент от интерфейса фигуры + дополнительно параметры и методы для прямоугольника
 public class Rectangle implements Figure {
