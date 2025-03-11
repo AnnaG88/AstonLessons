@@ -5,10 +5,7 @@ interface Figure {
     double area();
 
     String fillColor();
-    void fillColor(String color);
-
     String borderColor();
-    void borderColor(String color);
 
     default void printInfo() {
         System.out.print("периметр = " + perimeter());
