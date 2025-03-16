@@ -9,14 +9,35 @@ package org.example.Lesson_9;
 который получает список студентов и номер курса. Метод печатает на консоль имена тех студентов,
 которые обучаются на данном курсе.
 */
-
+import java.util.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
+
+    // параметры объектов класса: имя, группа, курс, оценки по предметам
     private String name;
     private String group;
     private int course;
-    private List<Integer> subjectGrades;
+    private ArrayList<Integer> subjectGrades;
+
+    // конструктор
+    public Student(String name, String group, int course, ArrayList<Integer> subjectGrades) {
+        this.name = name;
+        this.group = group;
+        this.course = course;
+        this.subjectGrades = subjectGrades;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public String getGroup() {
+        return group;
+    }
+    public int getCourse() {
+        return course;
+    }
 
 
 }

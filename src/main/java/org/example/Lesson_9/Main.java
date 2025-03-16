@@ -15,13 +15,27 @@ package org.example.Lesson_9;
 искать номер телефона по фамилии. Следует учесть, что под одной фамилией может быть несколько
 телефонов (в случае однофамильцев), тогда при запросе такой фамилии должны выводиться все телефоны.
 */
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 1");
 
+        ArrayList<Integer> students = new ArrayList<>();
+        //students.add(new Student("Судент1", "13", 1, Arrays.asList(4,5,3)));
+
+
+
+
+
+
 
         System.out.println("Задание 2");
+
         TelephoneBook telephoneBook = new TelephoneBook();
         telephoneBook.adddd("Георгиева", "89173333333");
         telephoneBook.adddd("Петрова", "89279999999");
