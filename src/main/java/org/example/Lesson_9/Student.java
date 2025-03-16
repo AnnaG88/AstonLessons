@@ -10,5 +10,13 @@ package org.example.Lesson_9;
 которые обучаются на данном курсе.
 */
 
+import java.util.List;
+
 public class Student {
+    private String name;
+    private String group;
+    private int course;
+    private List<Integer> subjectGrades;
+
+
 }
