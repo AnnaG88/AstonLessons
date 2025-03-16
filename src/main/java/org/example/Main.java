@@ -23,6 +23,6 @@ public class Main {
         System.out.println("Телефон Георгиевой: " + telephoneBook.getttt("Георгиева"));
 
         // Проверить есть ли такой тел-значение
-        System.out.println("Тел: " + TelephoneBook.containsKeyContact("89173733933")); // проверить есть ли такой ключ
+        System.out.println("Тел: " + TelephoneBook.containsKeyContact("89173733933"));
     }
 }
