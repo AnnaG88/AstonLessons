@@ -15,26 +15,45 @@ package org.example.Lesson_9;
 искать номер телефона по фамилии. Следует учесть, что под одной фамилией может быть несколько
 телефонов (в случае однофамильцев), тогда при запросе такой фамилии должны выводиться все телефоны.
 */
-import java.util.*;
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+import static org.example.Lesson_9.Student.*;
 
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Задание 1");
 
-        ArrayList<Integer> students = new ArrayList<>();
-        //students.add(new Student("Судент1", "13", 1, Arrays.asList(4,5,3)));
+        Set<Student> students = new HashSet<>();
 
+        students.add(new Student("Георгиева А.А.", "№1", 1, Arrays.asList(4, 5, 5)));
+        students.add(new Student("Петрова О.В", "№1", 1, Arrays.asList(5, 4, 5)));
+        students.add(new Student("Волков Д.Г.", "№2", 4, Arrays.asList(5, 5, 4)));
+        students.add(new Student("Наумов С.И.", "№2", 3, Arrays.asList(2, 3, 3)));
+        students.add(new Student("Назарова С.И.", "№3", 2, Arrays.asList(3, 3, 2)));
 
+        System.out.println("Cписок всех студентов:");
+        for (Student student : students) {
+            System.out.println(student);
+        }
 
+        removeUnderperformingStudents(students);
+        System.out.println("\nСписок после отчисления:");
+        for (Student student : students) {
+            System.out.println(student);
+        }
 
+        transferStudents(students);
+        System.out.println("\nСписок после перевода на следующий курс:");
+        for (Student student : students) {
+            System.out.println(student);
+        }
 
+        printStudents(students, 2); // поиск значения по ключу-курсу
 
-
-        System.out.println("Задание 2");
+        System.out.println("\n\nЗадание 2");
 
         TelephoneBook telephoneBook = new TelephoneBook();
         telephoneBook.adddd("Георгиева", "89173333333");
