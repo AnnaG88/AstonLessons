@@ -15,7 +15,7 @@ import java.util.Map;
 public class TelephoneBook {
 
     // коллекция будет хранить ключ-фамилию и значение-тел
-    static HashMap<String, List<String>> telephoneBook = new HashMap<>();
+    private static HashMap<String, List<String>> telephoneBook = new HashMap<>();
 
     // метод для добавления контакта
     public void adddd(String surName, String phoneNumber) {
