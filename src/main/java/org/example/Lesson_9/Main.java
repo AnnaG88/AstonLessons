@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Lesson_9;
 
 /*
 Задание 1
@@ -10,19 +10,20 @@ package org.example;
 искать номер телефона по фамилии. Следует учесть, что под одной фамилией может быть несколько
 телефонов (в случае однофамильцев), тогда при запросе такой фамилии должны выводиться все телефоны.
  */
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 2");
         TelephoneBook telephoneBook = new TelephoneBook();
-        telephoneBook.adddd("Георгиева", "89173733933");
-        telephoneBook.adddd("Петрова", "89279555415");
-        telephoneBook.adddd("Георгиева", "89273233933");
+        telephoneBook.adddd("Георгиева", "89173333333");
+        telephoneBook.adddd("Петрова", "89279999999");
+        telephoneBook.adddd("Назарова", "89275555555");
+        telephoneBook.adddd("Георгиева", "89277777777");
         telephoneBook.printBook();
 
         // Получаем номер тел по фамилии
-        System.out.println("Телефон Георгиевой: " + telephoneBook.getttt("Георгиева"));
-
+        System.out.println("Телефоны Георгиевой: " + telephoneBook.getttt("Георгиева"));
         // Проверить есть ли такой тел-значение
-        System.out.println("Тел: " + TelephoneBook.containsKeyContact("89173733933"));
+        System.out.println("Тел: " + TelephoneBook.containsKeyContact("888888888888"));
     }
 }

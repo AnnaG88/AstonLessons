@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Lesson_9;
 /*
 Задание 2
 Написать простой класс Телефонный Справочник, который хранит в себе список фамилий и телефонных номеров.
@@ -8,15 +8,21 @@ package org.example;
         */
 
 import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 public class TelephoneBook {
 
     // коллекция будет хранить ключ-фамилию и значение-тел
-    static HashMap<String, String> telephoneBook = new HashMap<>();
+    static HashMap<String, List<String>> telephoneBook = new HashMap<>();
 
     // метод для добавления контакта
     public void adddd(String surName, String phoneNumber) {
-        telephoneBook.put(surName, phoneNumber);
+        if (!telephoneBook.containsKey(surName)) {
+            telephoneBook.put(surName, new ArrayList<>());
+        }
+        telephoneBook.get(surName).add(phoneNumber);
     }
 
     // метод для распечатки книги
@@ -25,8 +31,8 @@ public class TelephoneBook {
     }
 
     // метод вернуть значение по ключу-фамилии
-    public String getttt(String surName) {
-        return telephoneBook.get(surName);
+    public List<String> getttt(String surName) {
+        return telephoneBook.getOrDefault(surName, new ArrayList<>());
     }
 
     // метод проверить есть ли такой тел-значение
