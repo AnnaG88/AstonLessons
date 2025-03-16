@@ -8,27 +8,29 @@ package org.example;
         */
 
 import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class TelephoneBook {
 
     // коллекция будет хранить ключ-фамилию и значение-тел
-    HashMap<String, String> TelephoneBook = new HashMap<>();
+    static HashMap<String, String> telephoneBook = new HashMap<>();
 
     // метод для добавления контакта
-    public void addContact(String surname, String phoneNumber) {
-        TelephoneBook.put(surname, phoneNumber);
+    public void adddd(String surName, String phoneNumber) {
+        telephoneBook.put(surName, phoneNumber);
     }
 
     // метод для распечатки книги
-    public void printBook(){
-        System.out.println(TelephoneBook);
+    public void printBook() {
+        System.out.println(telephoneBook);
     }
 
-    /*
+    // метод вернуть значение по ключу-фамилии
+    public String getttt(String surName) {
+        return telephoneBook.get(surName);
+    }
 
-        System.out.println(TelephoneBook.get("Георгиева")); // вернуть значение по ключу
-        System.out.println(TelephoneBook.containsKey("89173733933")); // проверить есть ли такой ключ
-    */
+    // метод проверить есть ли такой тел-значение
+    public static boolean containsKeyContact(String phoneNumber) {
+        return telephoneBook.containsKey(phoneNumber);
+    }
 }

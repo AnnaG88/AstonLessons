@@ -1,4 +1,5 @@
 package org.example;
+
 /*
 Задание 1
 Создайте класс Student, содержащий следующие характеристики – имя, группа, курс, оценки по предметам. Создайте коллекцию, содержащую объекты класса Student. Следует написать метод, который удаляет студентов со средним баллом < 3, а также отдельный метод, который переводит студента на следующий курс, если средний балл >= 3. Напишите метод printStudents(Set<Student> students, int course), который получает список студентов и номер курса. Метод печатает на консоль имена тех студентов, которые обучаются на данном курсе.
@@ -13,8 +14,15 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 2");
         TelephoneBook telephoneBook = new TelephoneBook();
-        telephoneBook.addContact("Георгиева", "89173733933");
-        telephoneBook.addContact("Петроова", "89273233933");
+        telephoneBook.adddd("Георгиева", "89173733933");
+        telephoneBook.adddd("Петрова", "89279555415");
+        telephoneBook.adddd("Георгиева", "89273233933");
         telephoneBook.printBook();
+
+        // Получаем номер тел по фамилии
+        System.out.println("Телефон Георгиевой: " + telephoneBook.getttt("Георгиева"));
+
+        // Проверить есть ли такой тел-значение
+        System.out.println("Тел: " + TelephoneBook.containsKeyContact("89173733933")); // проверить есть ли такой ключ
     }
 }
