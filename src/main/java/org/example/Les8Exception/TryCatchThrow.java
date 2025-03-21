@@ -1,4 +1,4 @@
-package org.example.Les8;
+package org.example.Les8Exception;
 
 public class TryCatchThrow {
     public static void main(String[] args) {
