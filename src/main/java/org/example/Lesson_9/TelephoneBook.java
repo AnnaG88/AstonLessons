@@ -15,6 +15,10 @@ public class TelephoneBook {
             telephoneBook.put(surName, new ArrayList<>()); // ...помести тел
         }
         telephoneBook.get(surName).add(phoneNumber);
+
+
+
+
     }
 
     // метод для распечатки книги
