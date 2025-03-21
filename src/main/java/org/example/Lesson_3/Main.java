@@ -1,5 +1,4 @@
 package org.example.Lesson_3;
-
 import java.util.Arrays;
 
 public class Main {
