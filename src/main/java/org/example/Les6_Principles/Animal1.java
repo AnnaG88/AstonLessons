@@ -1,4 +1,4 @@
-package org.example.Les6;
+package org.example.Les6_Principles;
 
 // public final class Animal { // файнал - запрет наследования
 public class Animal1 {

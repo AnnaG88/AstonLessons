@@ -1,4 +1,4 @@
-package org.example.Les6;
+package org.example.Les6_Principles;
 
 public class Cat extends Animal1 {
     String color;

@@ -1,4 +1,4 @@
-package org.example.Les5.Dog;
+package org.example.Les5_Paradigm.Dog;
 
 public class Main {
     public static void main(String[] args) {

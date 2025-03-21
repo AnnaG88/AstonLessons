@@ -1,4 +1,4 @@
-package org.example.Les5.Student;
+package org.example.Les5_Paradigm.Student;
 
 public class Student {
     int studentId;

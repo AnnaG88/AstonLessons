@@ -1,4 +1,4 @@
-package org.example.Les6;
+package org.example.Les6_Principles;
 
 public class Barsik2 extends Animal2 {
     public Barsik2(int age) {

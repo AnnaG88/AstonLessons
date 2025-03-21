@@ -1,4 +1,4 @@
-package org.example.Les5.Cat;
+package org.example.Les5_Paradigm.Cat;
 
 public class Cat {
     String name;

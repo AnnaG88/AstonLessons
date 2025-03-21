@@ -1,4 +1,4 @@
-package org.example.Les9Collections;
+package org.example.Les9_Collections;
 
 import java.util.*;
 
