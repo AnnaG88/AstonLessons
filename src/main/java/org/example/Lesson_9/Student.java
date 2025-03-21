@@ -41,7 +41,7 @@ public class Student {
                 ", средняя оценка=" + getAverageGrade();
     }
 
-    // метод рассчитывает среднюю оценку
+    // метод рассчитывает среднюю оценку студента
     public double getAverageGrade() {
         if (subjectGrades.isEmpty()) {
             return 0.0;
@@ -53,30 +53,11 @@ public class Student {
         return (double) sum / subjectGrades.size();
     }
 
-    // метод переводит на следующий курс
+    // метод переводит на следующий курс студента
     public void transferCourse() {
         if (getAverageGrade() >= 3.0) {
             course++;
         }
     }
 
-    public static void removeUnderperformingStudents(Set<Student> students) {
-        students.removeIf(student -> student.getAverageGrade() < 3.0);
-    }
-
-    public static void transferStudents(Set<Student> students) {
-        for (Student student : students) {
-            student.transferCourse();
-        }
-    }
-
-    public static void printStudents(Set<Student> students, int course) {
-        System.out.println();
-        for (Student student : students) {
-            if (student.getCourse() == course) {
-                System.out.println(student.getName() + " курс = " + student.getCourse());
-            }
-        }
-
-    }
 }

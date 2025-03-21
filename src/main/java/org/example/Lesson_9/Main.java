@@ -19,7 +19,8 @@ package org.example.Lesson_9;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import static org.example.Lesson_9.Student.*;
+
+import static org.example.Lesson_9.ListMethods.*;
 
 public class Main {
     public static void main(String[] args) {
