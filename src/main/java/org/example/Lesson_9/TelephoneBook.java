@@ -11,8 +11,8 @@ public class TelephoneBook {
 
     // метод для добавления контакта
     public void adddd(String surName, String phoneNumber) {
-        if (!telephoneBook.containsKey(surName)) {
-            telephoneBook.put(surName, new ArrayList<>());
+        if (!telephoneBook.containsKey(surName)) {         // если контакт уже есть...
+            telephoneBook.put(surName, new ArrayList<>()); // ...помести тел
         }
         telephoneBook.get(surName).add(phoneNumber);
     }
