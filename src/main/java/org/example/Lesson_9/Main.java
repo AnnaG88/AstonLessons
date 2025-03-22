@@ -57,18 +57,16 @@ public class Main {
         System.out.println("\n\nЗадание 2");
 
         TelephoneBook telephoneBook = new TelephoneBook();
-        telephoneBook.adddd("Георгиева", "89173333333");
-        telephoneBook.adddd("Петрова", "89279999999");
-        telephoneBook.adddd("Назарова", "89275555555");
-        telephoneBook.adddd("Георгиева", "89277777777");
-        telephoneBook.adddd("Георгиева", "89277777777");
-        telephoneBook.adddd("Георгиева", "89277777777");
-        telephoneBook.adddd("Георгиева", "89277777777");
-        telephoneBook.adddd("Назарова", "89277777777");
+        telephoneBook.addContact("Георгиева", "89173333333");
+        telephoneBook.addContact("Петрова", "89279999999");
+        telephoneBook.addContact("Назарова", "89275555555");
+        telephoneBook.addContact("Георгиева", "89277777777");
+        telephoneBook.addContact("Георгиева", "89277777777");
+        telephoneBook.addContact("Назарова", "89277777777");
         telephoneBook.printBook();
 
         // Получаем номер тел по фамилии
-        System.out.println("Телефоны Георгиевой: " + telephoneBook.getttt("Георгиева"));
+        System.out.println("Телефоны Георгиевой: " + telephoneBook.getNumber("Георгиева"));
         // Проверить есть ли такой тел-значение
         System.out.println("Тел: " + TelephoneBook.containsKeyContact("888888888888"));
     }
