@@ -61,6 +61,10 @@ public class Main {
         telephoneBook.adddd("Петрова", "89279999999");
         telephoneBook.adddd("Назарова", "89275555555");
         telephoneBook.adddd("Георгиева", "89277777777");
+        telephoneBook.adddd("Георгиева", "89277777777");
+        telephoneBook.adddd("Георгиева", "89277777777");
+        telephoneBook.adddd("Георгиева", "89277777777");
+        telephoneBook.adddd("Назарова", "89277777777");
         telephoneBook.printBook();
 
         // Получаем номер тел по фамилии
