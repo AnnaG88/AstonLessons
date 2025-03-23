@@ -43,5 +43,9 @@ public class Main {
         operation2.multiplication();
         operation2.division();
 
+
+        CompareNumber num1 = new CompareNumber(10);
+        CompareNumber num2 = new CompareNumber(20);
+        num1.compare(num2);
     }
 }
