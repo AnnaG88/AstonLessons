@@ -2,12 +2,14 @@ package org.example.Lesson_12;
 
 public class Factorial {
 
-    public void factorial(int number) { // сперва проверяем число
+    public String factorial(int number) { // сперва проверяем число
         if (number < 0) {                      // есл отриц вообще не считаем
-            System.out.println("для отрицательного числа " + number + " факториала не бывает");
+            // System.out.println("для отрицательного числа " + number + " факториала не бывает");
+            return "для отрицательного числа " + number + " факториала не бывает";
         } else {
             long factorial = calculateFactorial(number);
-            System.out.println("факториал числа " + number + " равен " + factorial);
+            // System.out.println("факториал числа " + number + " равен " + factorial);
+            return "факториал числа " + number + " равен " + factorial;
         }
     }
 
