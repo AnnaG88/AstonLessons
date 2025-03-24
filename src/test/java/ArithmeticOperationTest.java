@@ -5,9 +5,9 @@ public class ArithmeticOperationTest {
 
 
     @Test
-    @DisplayName("название теста")
+    @DisplayName("тест для программы вычисления арифметических операций")
 
-    public void someTest() {
+    public void arithmeticOperationTest() {
         System.out.println(" тест запустился ");
 
 
