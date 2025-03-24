@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 public class ArithmeticOperationTest {
 
     @Test(description = "описание")
+
     public void someTest(){
         System.out.println(" тест ");
 
