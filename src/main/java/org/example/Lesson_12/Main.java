@@ -16,7 +16,7 @@ package org.example.Lesson_12;
 public class Main {
     public static void main(String[] args) {
 
-        int[] numbers = { -1, 0, 1, 2, 3, 4, 5, 6}; // массив чисел для которых будем...
+        int[] numbers = { -1, 0, 1, 2, 3}; // массив чисел для которых будем...
         Factorial factorialCalculator = new Factorial();
         for (int number : numbers) {
             factorialCalculator.factorial(number);
@@ -32,16 +32,10 @@ public class Main {
 
 
         ArithmeticOperation operation1 = new ArithmeticOperation(10, 5);
-        operation1.summa();
-        operation1.subtraction();
-        operation1.multiplication();
-        operation1.division();
-
-        ArithmeticOperation operation2 = new ArithmeticOperation(20, 0);
-        operation2.summa();
-        operation2.subtraction();
-        operation2.multiplication();
-        operation2.division();
+        System.out.println(" сложение : " + operation1.summa());
+        System.out.println(" вычитание : " + operation1.subtraction());
+        System.out.println(" умножение : " + operation1.multiplication());
+        System.out.println(" деление : " + operation1.division());
 
 
         CompareNumber num1 = new CompareNumber(10);

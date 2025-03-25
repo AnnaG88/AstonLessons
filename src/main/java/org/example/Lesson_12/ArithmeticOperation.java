@@ -9,27 +9,23 @@ public class ArithmeticOperation {
         this.b = b;
     }
 
-    public void summa() {
-        int resultOperation = a + b;
-        System.out.println(" сложение : " + a + " + " + b + " = " + resultOperation);
+    public int summa() {
+        return a + b;
     }
 
-    public void subtraction() {
-        int resultOperation = a - b;
-        System.out.println(" вычитание : " + a + " - " + b + " = " + resultOperation);
+    public int subtraction() {
+        return a - b;
     }
 
-    public void multiplication() {
-        int resultOperation = a * b;
-        System.out.println(" умножение : " + a + " * " + b + " = " + resultOperation);
+    public int multiplication() {
+        return a * b;
     }
 
-    public void division() {
+    public double division() {
         if (b != 0) {
-            double resultOperation = (double) a / b;
-            System.out.println(" деление : " + a + " / " + b + " = " + resultOperation);
+            return  (double) a / b;
         } else {
-            System.out.println(" на 0 делить нельзя ");
+            throw new ArithmeticException("На 0 делить нельзя"); //в случае ошибки
         }
     }
 
