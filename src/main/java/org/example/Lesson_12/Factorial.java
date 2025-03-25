@@ -11,7 +11,7 @@ public class Factorial {
         }
     }
 
-    private long calculateFactorial(int number) {
+    public long calculateFactorial(int number) {
         long factorial = 1; // факториал для 0 и 1 всегда равен 1
         for (int i = 1; i <= number; i++) {
             factorial *= i;
