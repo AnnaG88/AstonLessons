@@ -16,10 +16,11 @@ package org.example.Lesson_12;
 public class Main {
     public static void main(String[] args) {
 
-        int[] numbers = { -1, 0, 1, 2, 3, 4, 5, 6}; // массив чисел для которых будем...
+        int[] numbers = { -1, 0, 1, 2}; // массив чисел для которых будем...
         Factorial factorialCalculator = new Factorial(); // вычислять факториал
         for (int number : numbers) {
-            factorialCalculator.factorial(number);
+            String result = factorialCalculator.factorial(number);
+            System.out.println(result);
         }
 
 

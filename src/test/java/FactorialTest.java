@@ -6,7 +6,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FactorialTest {
 
-    private final Factorial factorial = new Factorial();
+    // private final Factorial factorial = new Factorial();
+    private final Factorial factorialCalculator = new Factorial();
 
 
     @DisplayName("тест для программы вычисления факториала")
@@ -17,43 +18,43 @@ public class FactorialTest {
 
     @Test
     public void testFactorialOfZero() {
-        String result = factorial.factorial(0);
+        String result = factorialCalculator.factorial(0);
         assertEquals("факториал 0 равен 1", result);
     }
 
     @Test
     public void testFactorialOfOne() {
-        String result = factorial.factorial(1);
+        String result = factorialCalculator.factorial(1);
         assertEquals("факториал 1 равен 1", result);
     }
 
     @Test
     public void testFactorialOfTwo() {
-        String result = factorial.factorial(2);
+        String result = factorialCalculator.factorial(2);
         assertEquals("факториал 2 равен 2", result);
     }
 
     @Test
     public void testFactorialOfThree() {
-        String result = factorial.factorial(3);
+        String result = factorialCalculator.factorial(3);
         assertEquals("факториал 3 равен 6", result);
     }
 
     @Test
     public void testFactorialOfFour() {
-        String result = factorial.factorial(4);
+        String result = factorialCalculator.factorial(4);
         assertEquals("факториал 4 равен 24", result);
     }
 
     @Test
     public void testFactorialOfFive() {
-        String result = factorial.factorial(5);
+        String result = factorialCalculator.factorial(5);
         assertEquals("факториал 5 равен 120", result);
     }
 
     @Test
-    public void testFactorialOfNegativeNumber() {
-        String result = factorial.factorial(-1);
+    public void testFactorialNegativeNumber() {
+        String result = factorialCalculator.factorial(-1);
         assertEquals("для отрицательного -1 факториала не бывает", result);
     }
 }
