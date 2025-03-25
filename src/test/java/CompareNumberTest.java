@@ -23,7 +23,7 @@ public class CompareNumberTest {
         CompareNumber num2 = new CompareNumber(10);
 
 
-        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();// перенаправление вывода
         System.setOut(new PrintStream(outContent));
 
         num1.compare(num2);
